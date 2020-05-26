@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MorseDecoder</string>
+    <string name="home">home</string>
+    <string name="learn">learn</string>
+    <string name="settings">settings</string>
+    <string name="copy_to_buffer">copy to buffer</string>
+    <string name="delete">delete</string>
+    <string name="text_here">Text here</string>
+    <string name="press_any_button">Press any button</string>
+    <string name="past_from_the_buffer">past from the buffer</string>
+    <string name="word_space">word space</string>
+    <string name="letter_space">letter space</string>
+    <string name="backspace">←</string>
+    <string name="dash">–</string>
+    <string name="dot">•</string>
+</resources>

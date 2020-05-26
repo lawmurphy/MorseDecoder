@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDF3EF">
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:background="@drawable/text_frames"
+            android:padding="16dp"
+            android:layout_margin="8dp"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/inputView"
+            style="@style/textStyle"
+            android:layout_height="120dp"
+            android:gravity="top"
+            android:lines="6"
+            android:padding="4dp"
+            android:hint="@string/text_here"
+            android:inputType="textMultiLine" />
+        </ScrollView>
+
+
+
+        <Button
+            android:id="@+id/buttonClear"
+            style="@style/buttonStyle"
+            android:textSize="16sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/delete" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:padding="16dp"
+            android:background="@drawable/text_frames">
+
+            <TextView
+                android:layout_margin="4dp"
+                android:id="@+id/resultView"
+                style="@style/textStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true" />
+        </ScrollView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/copyToBuffer"
+        style="@style/buttonStyle"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_below="@id/top_layout"
+        android:text="@string/copy_to_buffer" />
+
+
+</RelativeLayout>
