@@ -1,6 +1,5 @@
 package shirokov.apps.morsedecoder;
 
-import java.util.Arrays;
 
 public class Morse {
 
